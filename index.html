@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Vehicle Auction</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Blockchain Car Auction</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#auction">Auctions</a></li>
+                    <li><a href="#notice">Public Notice</a></li>
+                    <li><a href="#info">Information</a></li>
+                    <li><a href="javascript:void(0);" class="btn" onclick="showLoginForm()">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Scroll-up Button -->
+<div id="scrollUp" class="scroll-up">
+    &#8679; <!-- Up Arrow Icon -->
+</div>
+
+
+     <!-- Hero Section -->
+     <section class="hero">
+        <div class="hero-content">
+            <h2>Rev Up the Excitement <br> with Our Weekly Vehicle Auctions</h2>
+            <p>
+                Explore a diverse range of vehicles, from cars to cars. 
+                Register or log in to kickstart your bidding journey today!
+            </p>
+        </div>
+    </section>
+
+    <!-- Vehicle Brands Section -->
+    <section class="brands">
+        <h2>Find Your Dream Vehicle</h2>
+        <div class="brand-grid">
+            <img src="https://imgcdn.zigwheels.my/large/gallery/exterior/133/2022/tesla-model-y-front-angle-low-view-945243.jpg" alt="Model y">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/2025-tesla-model-s-1-672d42e172407.jpg?crop=0.465xw:0.466xh;0.285xw,0.361xh&resize=2048:*" alt="Model S">
+            <img src="https://www.greendrive-accessories.com/blog/wp-content/uploads/2024/04/The-Tesla-Model-3-Performance-Update.png" alt="Model 3">
+            <img src="https://media.ed.edmunds-media.com/tesla/model-x/2024/oem/2024_tesla_model-x_4dr-suv_plaid_fq_oem_1_1280x855.jpg" alt="Model X">
+        </div>
+    </section>
+
+    <!-- Login Form Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginForm()">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-email">Email Address:</label>
+                <input type="email" id="login-email" placeholder="Enter your email" required>
+                
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
+                
+                <button type="button" onclick="login()">Login</button>
+            </form>
+            <p>Don't have an account? <a href="javascript:void(0);" onclick="showSignupForm()">Create one here</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+    <!-- Footer -->
+ <footer class="footer">
+    <!-- Footer Section -->
+    <section class="footer-contact">
+        <div class="footer-container">
+        <!-- Contact Information -->
+        <div class="contact-details">
+            <h2>Get in Touch with Us!</h2>
+            <ul>
+                <li><i class="fa fa-phone"></i> Call/Whatsapp <br> <strong>01-234567890</strong> <span>(ext. 1024 / 1042 / 2024)</span></li>
+                <li><i class="fa fa-comment"></i> Message Us</li>
+                <li><i class="fa fa-map-marker"></i> Our Location</li>
+                <li><i class="fa fa-clock-o"></i> Monday - Friday (9.00am - 5.30pm)</li>
+            </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="newsletter">
+            <div class="newsletter-box">
+                <h3>Subscribe to TARUMT4</h3>
+                <p>Subscribe to TARUMT4 by keeping yourself up-to-date with all auction properties in Malaysia that could not be missed.</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!-- Footer Bottom -->
+<footer class="footer-bottom">
+    <div class="footer-bottom-container">
+        <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa fa-youtube"></i> Youtube</a>
+            <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fa fa-paper-plane"></i> Telegram</a>
+        </div>
+        <div class="footer-text">
+            <p>In Alliance With</p>
+            <h4>AUCTION CAR</h4>
+            <p>Make Auction Deals Fast & Secure</p>
+            <p>Malaysia's Top Auctioneer | © Copyright 2024 Ng Koh & Co Sdn Bhd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    </footer>
+
+</html>
